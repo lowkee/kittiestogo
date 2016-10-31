@@ -1,7 +1,7 @@
 body{
   background: black;
 }
-head.top {
+.top {
     height: 25%;
     width: 100%;
     background-color: black;
@@ -15,6 +15,7 @@ h1{
 main{
   background-color: white;
   text-align: inherit;
+  overflow: auto;
 }
 
 nav{
@@ -27,14 +28,23 @@ nav{
 p {
     margin: 10px 150px 10px 60px;
 }
-aside.rightside {
+div1{
+  width: 500px;
+  float:left;
+}
+div2{
+  width: 500px;
+  float:left;
+}
+.rightside {
     width: 250px;
+    height: auto;
     padding: 5px;
     border: 5px solid gray;
     text-align: center;
     float: right;
-    margin: 10px;
 }
+
 span.navigationSpace {
     padding-left: 200px;
 }
