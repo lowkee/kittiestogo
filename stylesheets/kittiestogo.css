@@ -1,7 +1,7 @@
 body{
   background: black;
 }
-div.top {
+head.top {
     height: 25%;
     width: 100%;
     background-color: black;
@@ -33,6 +33,7 @@ aside.rightside {
     border: 5px solid gray;
     text-align: center;
     float: right;
+    margin: 10px;
 }
 span.navigationSpace {
     padding-left: 200px;
