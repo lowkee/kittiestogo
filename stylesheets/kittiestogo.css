@@ -1,0 +1,43 @@
+body{
+  background: black;
+}
+div.top {
+    height: 25%;
+    width: 100%;
+    background-color: black;
+}
+header{
+  background-color: black;
+ }
+h1{
+  margin: 100px 150px 0px 60px;
+}
+main{
+  background-color: white;
+  text-align: inherit;
+}
+
+nav{
+  background-color: gray;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+p {
+    margin: 10px 150px 10px 60px;
+}
+aside.rightside {
+    width: 250px;
+    padding: 5px;
+    border: 5px solid gray;
+    text-align: center;
+    float: right;
+}
+span.navigationSpace {
+    padding-left: 200px;
+}
+
+footer{
+  background-color: black;
+}
