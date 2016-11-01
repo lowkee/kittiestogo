@@ -1,3 +1,6 @@
+.head{
+  float:right;
+  }
 body{
   background: black;
 }
@@ -11,7 +14,8 @@ header{
  }
 h1{
   margin: 100px 150px 0px 60px;
-}
+  }
+
 main{
   background-color: white;
   text-align: inherit;
@@ -28,6 +32,9 @@ nav{
 p {
     margin: 10px 150px 10px 60px;
 }
+p.footer{
+  text-align: center;
+}
 div1{
   width: 500px;
   float:left;
@@ -36,8 +43,8 @@ div2{
   width: 500px;
   float:left;
 }
-.rightside {
-    width: 250px;
+div3.rightside {
+    width: 325px;
     height: auto;
     padding: 5px;
     border: 5px solid gray;
