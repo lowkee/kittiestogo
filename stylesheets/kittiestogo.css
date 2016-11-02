@@ -1,8 +1,9 @@
 .head{
-  float:right;
+  float: right;
   }
 body{
   background: black;
+  font-family: sans-serif;
 }
 .top {
     height: 25%;
@@ -37,13 +38,9 @@ p.footer{
 }
 div1{
   width: 500px;
-  float:left;
+  float: left;
 }
-div2{
-  width: 500px;
-  float:left;
-}
-div3.rightside {
+div2.rightside {
     width: 325px;
     height: auto;
     padding: 5px;
@@ -55,7 +52,11 @@ div3.rightside {
 span.navigationSpace {
     padding-left: 200px;
 }
-
+/*for the table on the rates page*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 footer{
   background-color: black;
 }
